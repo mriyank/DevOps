@@ -11,3 +11,26 @@ docker container run -d -e MARIADB_USER=db_user -e MARIADB_PASSWORD=db_pass -e M
 <br>
 ![image](https://github.com/user-attachments/assets/a948fdc4-e569-4468-97dd-6ee0240c23c5)
 
+
+<br>
+# Setup Wordpress for Frontend
+![image](https://github.com/user-attachments/assets/03ba64bf-59e4-4214-8c9f-322f90082e96)
+
+## Command
+root@Docker-Machine:~# docker container run -d -e WORDPRESS_DB_HOST=my_backend_db -e WORDPRESS_DB_USER=db_user -e WORDPRESS_DB_PASSWORD=db_pass -e WORDPRESS_DB_NAME=frontend_app --name my_fnt_app wordpress
+<br><br><br>
+### Output
+![image](https://github.com/user-attachments/assets/8f6de755-c921-4a33-ba64-f513cf29d7df)
+<br><br><br>
+
+![image](https://github.com/user-attachments/assets/05ed1529-8a86-4b62-9556-6ec043c53910)
+
+<p>Now I need to expose the workpress to port 8080 as well.</p>
+<br>
+
+![image](https://github.com/user-attachments/assets/dca4c736-56d5-4948-9010-3b5f141ccce2)
+<br>
+### create docker network
+![image](https://github.com/user-attachments/assets/19a9837a-a4f6-41e9-8144-a5e47d6b75e9)
+
+### Re-installing the docker containers
