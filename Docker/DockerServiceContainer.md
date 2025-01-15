@@ -34,3 +34,7 @@ root@Docker-Machine:~# docker container run -d -e WORDPRESS_DB_HOST=my_backend_d
 ![image](https://github.com/user-attachments/assets/19a9837a-a4f6-41e9-8144-a5e47d6b75e9)
 
 ### Re-installing the docker containers
+![image](https://github.com/user-attachments/assets/ffd19c8b-2a1b-40d6-a320-e47beacf7081)
+
+## Application is Up (End to End)
+![image](https://github.com/user-attachments/assets/0dec583e-901c-403f-b360-74736583a052)
